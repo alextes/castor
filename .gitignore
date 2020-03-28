@@ -1,0 +1,4 @@
+node_modules/
+castor-backup/
+.cache/
+dist/
