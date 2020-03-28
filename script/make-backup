@@ -1,0 +1,5 @@
+#!/bin/sh
+
+castorip=34.73.188.158
+
+rsync -r --rsync-path="sudo rsync" --progress --exclude ".nvm" alextes@$castorip:/home/ castor-backup
